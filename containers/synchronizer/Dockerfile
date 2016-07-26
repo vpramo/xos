@@ -1,4 +1,4 @@
-FROM       xosproject/xos
+FROM       vpramo/xos
 
 # Supervisor
 COPY conf/synchronizer.conf /etc/supervisor/conf.d/

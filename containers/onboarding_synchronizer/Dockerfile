@@ -1,4 +1,4 @@
-FROM       xosproject/xos-synchronizer-openstack
+FROM       vpramo/xos-synchronizer-openstack
 
 # Install docker-in-docker (dind). See https://hub.docker.com/_/docker/. The docker git repo
 # currently only has 1.10 and 1.11, but it's possible to get the dockerfiles for earlier
