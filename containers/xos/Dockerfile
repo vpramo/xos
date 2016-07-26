@@ -1,4 +1,4 @@
-FROM xosproject/xos-base
+FROM vpramo/xos-base
 
 # Include certificates from Openstack
 ADD local_certs.crt /usr/local/share/ca-certificates/local_certs.crt
